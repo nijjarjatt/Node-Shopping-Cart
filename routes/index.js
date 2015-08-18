@@ -18,9 +18,9 @@ router.get('/products', function(req, res, next){
 router.post('/products', function(req, res, next){
 	var product = new Product(req.body);
 
-	product.save(function(err, post){
+	product.save(function(err, product){
 		if(err) {  return next(err); }
-		res.json(post);
+		res.json(product);
 	});
 
 });
@@ -41,6 +41,16 @@ router.get('/products/:product', function(req, res) {
   res.json(req.product);
 });
 
+router.put('/products/:product', function(req, res){
+  for(prop in req.body){
+    req.product[prop] = req.body[prop];
+  }
+  req.product.save(function(err, product){
+    if(err) { return res.send(err); }
+    res.json(product);
+  });
+});
+
 router.delete('/products/:product', function(req, res){
 	req.product.remove(function(err){
   	if(err){
@@ -49,6 +59,7 @@ router.delete('/products/:product', function(req, res){
   	res.send(204);  	
   });
 });
+
 
 
 

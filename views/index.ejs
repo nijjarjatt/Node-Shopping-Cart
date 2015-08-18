@@ -4,9 +4,12 @@
     <title>My Angular App!</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/xeditable.css">
 
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+    <script src="/javascripts/xeditable.min.js"></script>    
+
     <script src="/javascripts/angularapp.js"></script>
 
   </head>
@@ -29,10 +32,10 @@
         </tr>
         
         <tr ng-repeat="product in products | orderBy: '-price'">
-          <td>{{product.name}}</td>
-          <td>{{product.sku}}</td>
-          <td>{{product.desc}}</td>
-          <td>${{product.price}}</td>
+          <td><a href="#" editable-text="product.name" onaftersave="updateProduct(product)">{{product.name || "empty" }}</a></td>
+          <td><a href="#" editable-text="product.sku" onaftersave="updateProduct(product)">{{product.sku || "empty" }}</a></td>
+          <td><a href="#" editable-textarea="product.desc" onaftersave="updateProduct(product)">{{product.desc || "empty" }}</a></td>
+          <td><a href="#" editable-number="product.price" onaftersave="updateProduct(product)">{{product.price || "empty" }}</a></td>
           <td><a href="#/products/{{product._id}}">Details</a></td>          
           <td><button ng-click="deleteProduct(product._id)">Delete</a></td>
         <tr>

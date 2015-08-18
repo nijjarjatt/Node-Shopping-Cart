@@ -1,4 +1,4 @@
-var app = angular.module('shoppingCart',['ui.router']);
+var app = angular.module('shoppingCart',['ui.router', 'xeditable']);
 
 
 app.config([
@@ -60,6 +60,12 @@ app.factory('products', ['$http', function($http){
 			}	
 		});
 	};
+	o.update = function(product){
+		return $http.put('/products/' + product._id, product).then(function(res){
+			console.log('Product Updated Sucessfully');
+
+		});
+	};
 	return o;
 }])
 
@@ -67,6 +73,11 @@ app.controller('MainCtrl', ['$scope', 'products', function($scope, products ){
 
 	$scope.products = products.products;
 
+	$scope.editMode = false;
+
+	$scope.updateProduct = function(product){
+		products.update(product);
+	};
 	$scope.addProduct =  function(){
 		if( !$scope.name || $scope.name ==='' || !$scope.sku || $scope.sku ==='' || !$scope.desc || $scope.desc ==='' || !$scope.price || $scope.price ===''  ){return;}
 
@@ -90,6 +101,10 @@ app.controller('MainCtrl', ['$scope', 'products', function($scope, products ){
 app.controller('ProductsCtrl', ['$scope','$stateParams','products', 'product',	function($scope, $stateParams, products, product){
 	$scope.product = product;
 }]);
+
+app.run(function(editableOptions) {
+  editableOptions.theme = 'bs3'; // bootstrap3 theme. Can be also 'bs2', 'default'
+});
 
 
 
