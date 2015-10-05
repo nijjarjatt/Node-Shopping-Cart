@@ -1,0 +1,222 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"p",
+				"products"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Resources/Codes/angular/ui-router/index.html",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/models/Products.js",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/models/Users.js",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/app.js",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/views/index.ejs",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/config/passport.js",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/public/javascripts/angularapp.js",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/routes/index.js",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/models/Models.js",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/package.json",
+		"/D/Resources/Codes/angular/shopping-cart-front-end/shopping-cart-app.sublime-project",
+		"/D/Resources/Codes/angular/shopping-cart-front-end/index.html",
+		"/D/Resources/Codes/node/shopping-cart/app.js",
+		"/D/Resources/Codes/node/shopping-cart/views/index.ejs",
+		"/C/Users/talwinder/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/talwinder/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Resources/Codes/node/shopping-cart/Node-Shopping-Cart/.gitignore",
+		"/D/Resources/Codes/angular/shopping-cart-front-end/app.js",
+		"/D/Resources/Codes/angular/shopping-cart-front-end/app1.js",
+		"/D/Resources/Codes/angular/shopping-cart-front-end/app3.js",
+		"/D/Resources/Codes/node/shopping-cart/public/javascripts/angularapp.js",
+		"/D/Resources/Codes/node/shopping-cart/routes/index.js",
+		"/D/Resources/Codes/node/shopping-cart/models/Users.js",
+		"/D/Resources/Codes/node/shopping-cart/models/Products.js",
+		"/D/Resources/Codes/node/shopping-cart/package.json",
+		"/D/Resources/Codes/angular/shopping-cart-front-end/shopping cart.sublime-project",
+		"/C/Users/talwinder/AppData/Roaming/Sublime Text 3/Packages/User/chrome-build.sublime-build",
+		"/D/Resources/Codes/angular/shopping-cart-front-end/shopping-cart-front-end/index.html",
+		"/C/Users/talwinder/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"static"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/chrome-build.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
